@@ -4,9 +4,9 @@ Route your docker containers through WireGuard!
 
 ## Environmental Variables
 
-`VPN_CONF` - The name of your Wireguard config (without the `.conf`), in `/etc/wireguard` (**REQUIRED**)
-`VPN_IP` - The public IP address that a VPN connection will have.
-`VPN_CHECK_IP` - Whether to automatically check to see if your VPN is actually connected or not. Uses `VPN_IP`, and if it is not specified, will pull it from the wireguard config.
+`VPN_CONF` - The name of your Wireguard config (without the `.conf`), in `/etc/wireguard` (**REQUIRED**)  
+`VPN_IP` - The public IP address that a VPN connection will have.  
+`VPN_CHECK_IP` - Whether to automatically check to see if your VPN is actually connected or not. Uses `VPN_IP`, and if it is not specified, will pull it from the wireguard config.  
 
 ## Example
 
